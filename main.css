@@ -1,0 +1,47 @@
+h1{
+  width: 100%;
+  color: white;
+  font-size: 58px;
+  background-color: #E5322D;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3)!important;
+
+}
+img{
+  width: 100%;
+  height: 300px!important;
+}
+#myCarousel {
+ height: 300px;
+  width: 100%;
+ margin: auto;
+}
+.carousel{
+   box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.3)!important;
+}
+.fileUpload{
+  margin: auto;
+}
+.choose-file{
+  display:inline-block!important;
+  cursor: pointer;
+  background-color: #ED1C24;
+  color: white;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top:2%;
+}
+.btn2{
+  border: none;
+  border-radius: 5px;
+}
+.btn1{
+ cursor: pointer; 
+ border: none;
+ border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+.choose-file {
+  font-size: 15px;
+}
+}
